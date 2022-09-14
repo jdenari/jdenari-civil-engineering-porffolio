@@ -1,0 +1,48 @@
+/* <!----------------------------------------default-------------------------------------------------> */
+
+:root{
+    --light-white: #E5E5E5;
+    --light-beige: #E3C5BB;
+    --normal-beige: #C4A494;
+    --strong-beige: #8E443D;
+    --normal-dark: #212529;
+}
+
+body{
+    font-family: 'jost', system-ui,-apple-system,"Segoe UI", Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.text-light-white{color: #e5e5e5;}
+.text-light-beige{color: #E3C5BB;}
+.text-normal-beige{color: #C4A494;}
+.text-strong-beige{color: #8E443D;}
+.text-lnormal-dark{color: #212529;}
+
+/* <!----------------------------------------navbar-------------------------------------------------> */
+
+.brand-navbar{
+    height: 70px;
+}
+/* <!----------------------------------------section1-------------------------------------------------> */
+
+section.sec-01{
+    margin-top: 86px;
+}
+
+/* adapt the default bootstrap config */
+.carousel-caption{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0px;
+}
+
+.carousel-control-prev-icon{
+    filter: none !important;
+}
+
+.carousel-control-next-icon{
+    filter: none !important;
+}
+
