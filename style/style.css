@@ -46,5 +46,13 @@ section.sec-01{
     filter: none !important;
 }
 
+.swiper-pagination{
+    display: block;
+}
 
+.swiper-pagination-bullet{
+    width: 32px;
+    height: 5px;
+    border-radius: 5px;
+}
 
