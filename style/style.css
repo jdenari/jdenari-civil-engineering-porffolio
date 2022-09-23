@@ -113,6 +113,25 @@ section.sec-01{
     color: var(--light-white)
 }
 
+.mais-projetos{
+    cursor: pointer;
+}
+
+.mais-projetos::after{
+    content: " ";
+    width: 20%;
+    height: 2px;
+    background-color: var(--normal-dark);
+    position: absolute;
+    bottom: 0;
+    left: 270px;
+    transition: 0.5s;
+}
+
+.mais-projetos:hover::after{
+    width: 50%;
+}
+
 .personal-photo{
     width: 70%;
     position: relative;
