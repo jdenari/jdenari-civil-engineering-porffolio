@@ -38,8 +38,6 @@ section.sec-01{
     top: 0px;
 }
 
-
-
 .carousel-control-prev-icon{
     filter: none !important;
 }
@@ -61,7 +59,7 @@ section.sec-01{
 
 .swiper-pagination-bullet{
     width: 32px;
-    height: 5px;
+    height: 4px;
     border-radius: 5px;
 }
 
@@ -124,12 +122,12 @@ section.sec-01{
     background-color: var(--normal-dark);
     position: absolute;
     bottom: 0;
-    left: 270px;
+    left: 240px;
     transition: 0.5s;
 }
 
 .mais-projetos:hover::after{
-    width: 50%;
+    width: 45%;
 }
 
 .personal-photo{
@@ -145,6 +143,6 @@ section.sec-01{
 }
 
 .sec-profile{
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
