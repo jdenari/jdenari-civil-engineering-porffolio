@@ -16,7 +16,7 @@
 <!----------------------------------------navbar------------------------------------------------->
     <nav class="navbar navbar-expand-lg fixed-top text-bg-light">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse">
+            <div class="container-fluid d-none d-lg-block">
                 <div class="brand-navbar d-flex">
                     <div class="p-2">
                         <img src="images/logo/logo-desenho-dark.png" alt="Imagem do desenho do logo Pedro Denari - Engenharia Civil" class="h-100">
@@ -26,27 +26,38 @@
                     </div>
                 </div>
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item px-4">
-                        <a href="#" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a href="#sec-project-id" class="nav-link">PORTFÓLIO</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a href="#sec-profile-id" class="nav-link">SOBRE</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a href="#sec-contact-id" class="nav-link">CONTATO</a>
-                    </li>
-                </ul>
+            <div class="navbar-brand">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+                <div class="collapse navbar-collapse" id="navmenu" >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-4">
+                            <a href="#section-profile-nav" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#sec-project-id" class="nav-link">PROJETOS</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#sec-profile-id" class="nav-link">PERFIL</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a href="#sec-contact-id" class="nav-link">CONTATO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>   
     </nav>
 <!----------------------------------------section1------------------------------------------------->
     <section id="carouselExampleDark" class="sec-01 carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="sec-project">
             <div class="carousel-item active" data-bs-interval="5000">
                 <img src="images/projects/project-main-01.png" class="d-block w-100 main-photo" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -282,55 +293,44 @@
     </div>
 </section>
 <!----------------------------------------footer------------------------------------------------->
-<footer class="text-bg-dark p-3 d-flex">
-    <div class="col-1 p-2 my-2 text-center">
-        <img src="images/logo/vector-white.png" alt="" class="w-75 img-fluid">
-    </div>
-    <div class="col-8 p-3 my-2">
-        <div class="h4 mt-2">Pedro Denari</div>
-        <div class="p mb-5">+55 12 98161-2374</div>
-        <div class="p">São José dos Campos, SP - Brasil</div>
-    </div>
-    <div class="col-3">
-        <div class="w-100 d-xl-flex flex-xl-row-reverse h-100 align-items-end p-2">
-            <div class="m-xl-0 m-auto p-2">
-                <div class="row">
-                        <a  href="https://www.linkedin.com/in/jo%C3%A3o-vitor-denari-dos-santos/" 
-                            class="col" 
-                            target="_blank" 
-                            onMouseover="document.linkedin2.src= 'images/contact/linkedin.png'" 
-                            onMouseout="document.linkedin2.src= 'images/contact/linkedin-white.png'"
-                        >
-                            <img src="images/contact/linkedin-white.png" 
-                                alt="Linkedin Icon" 
-                                class="w-75" 
-                                name="linkedin2"
-                            >
-                        </a>
-                        <a  href="mailto:joao.denari@hotmail.com" 
-                            class="col" 
-                            target="_blank" 
-                            onMouseover="document.envelope2.src= 'images/contact/envelope.png'" 
-                            onMouseout="document.envelope2.src= 'images/contact/envelope-white.png'"
-                        >
-                            <img src="images/contact/envelope-white.png" 
-                                alt="Icon Linkedin" 
-                                class="w-75" 
-                                name="envelope2"
-                            >
-                        </a>
-                        <a  href="https://github.com/jdenari" 
-                            class="col" 
-                            target="_blank" 
-                            onMouseover="document.instagram.src= 'images/contact/instagram.png'" 
-                            onMouseout="document.instagram.src= 'images/contact/instagram-white.png'"
-                        >
-                            <img src="images/contact/instagram-white.png" 
-                            alt="GitHub Icon" 
-                            class="w-75" 
-                            name="instagram"
-                            >
-                        </a>
+<footer class="text-bg-dark p-2">
+    <div class="w-100 d-xl-flex flex-xl-row-reverse p-4">
+        <div class="m-xl-0 m-auto">
+            <div class="row">
+                <a  href="https://www.linkedin.com/in/jo%C3%A3o-vitor-denari-dos-santos/" 
+                    class="col contact-icon" 
+                    target="_blank" 
+                >
+                    <img src="images/contact/linkedin-white.png" 
+                        alt="Linkedin Icon" 
+                        class="w-75" 
+                        name="linkedin"
+                    >
+                </a>
+
+                <a  href="mailto:joao.denari@hotmail.com" 
+                    class="col contact-icon" 
+                    target="_blank" 
+                >
+                    <img src="images/contact/envelope-white.png" 
+                        alt="Icon Linkedin" 
+                        class="w-75" 
+                        name="envelope"
+                    >
+                </a>
+
+                <a  href="https://github.com/jdenari" 
+                    class="col contact-icon" 
+                    target="_blank" 
+                >
+                    <img src="images/contact/instagram-white.png" 
+                    alt="Instagram Icon" 
+                    class="w-75" 
+                    name="instagram"
+                    >
+                </a>
+            </div>
+        </div>
     </div>
 </footer>
 

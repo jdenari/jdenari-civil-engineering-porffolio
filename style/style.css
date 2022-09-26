@@ -29,6 +29,10 @@ section.sec-01{
     margin-top: 86px;
 }
 
+.navbar{
+    min-height: 86px;
+}
+
 /* adapt the default bootstrap config */
 .carousel-caption{
     display: flex !important;
@@ -146,3 +150,11 @@ section.sec-01{
     margin-bottom: 150px;
 }
 
+.main-logo{
+    height: 155px;
+    width: 148px;
+}
+
+.contact-icon{
+    max-width: 80px;
+}
