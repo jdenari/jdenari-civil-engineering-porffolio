@@ -16,7 +16,6 @@ body{
 .text-normal-beige{color: #C4A494;}
 .text-strong-beige{color: #8E443D;}
 .text-lnormal-dark{color: #212529;}
-
 /* <!----------------------------------------navbar-------------------------------------------------> */
 .brand-navbar{
     height: 70px;
@@ -56,7 +55,6 @@ div.box-portfolio{
     color: var(--normal-dark);
     transition: 0.3s;
 }
-
 /* <!----------------------------------------section2-------------------------------------------------> */
 div.container-swiper-pagination-red{
     position: absolute !important;
@@ -102,7 +100,6 @@ div.more-projects::after{
 div.more-projects:hover::after{
     width: 45%;
 }
-
 /* <!----------------------------------------section3-------------------------------------------------> */
 section.sec-profile{
     margin-bottom: 80px;
@@ -119,12 +116,10 @@ div.personal-description{
     color: var(--light-white);
     padding-top: 10%;
 }
-
 /* <!----------------------------------------section4-------------------------------------------------> */
 textarea.form-control-coment{
     height: 200px !important;
 }
-
 /* <!----------------------------------------footer-------------------------------------------------> */
 div.main-logo{
     height: 155px;
