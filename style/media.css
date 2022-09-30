@@ -1,3 +1,16 @@
+/*--------------------------------------1600px----------------------------------------------*/ 
+
+@media screen and (max-width: 1600px) {
+    .personal-photo{
+        position: static;
+        margin: 50px auto;
+    }
+
+    .personal-description{
+        width: 90% !important;
+    }
+}
+
 
 /*--------------------------------------1400px----------------------------------------------*/ 
 
@@ -9,6 +22,7 @@
     .sec-profile{
         margin-bottom: 0px;
     }
+
 }
 
 /*--------------------------------------1200px----------------------------------------------*/ 
@@ -28,6 +42,10 @@
 
     .first-project-div{
         width: 75% !important;
+    }
+
+    .personal-description{
+        padding: 0px;
     }
 }
 
