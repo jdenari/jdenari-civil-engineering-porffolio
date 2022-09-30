@@ -46,7 +46,7 @@ div.carousel-caption{
     filter: none !important;
 }
 
-div.box-portfolio{
+.box-portfolio{
     cursor: pointer
 }
 
@@ -86,7 +86,7 @@ div.more-projects{
     cursor: pointer;
 }
 
-div.more-projects::after{
+.more-projects::after{
     content: " ";
     width: 20%;
     height: 2px;
@@ -97,7 +97,7 @@ div.more-projects::after{
     transition: 0.5s;
 }
 
-div.more-projects:hover::after{
+.more-projects:hover::after{
     width: 45%;
 }
 /* <!----------------------------------------section3-------------------------------------------------> */
