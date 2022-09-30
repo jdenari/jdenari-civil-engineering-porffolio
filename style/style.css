@@ -23,18 +23,18 @@ body{
 .brand-navbar{
     height: 70px;
 }
+
+nav.navbar{
+    min-height: 86px;
+}
 /* <!----------------------------------------section1-------------------------------------------------> */
 
 section.sec-01{
     margin-top: 86px;
 }
 
-.navbar{
-    min-height: 86px;
-}
-
 /* adapt the default bootstrap config */
-.carousel-caption{
+div.carousel-caption{
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -50,12 +50,24 @@ section.sec-01{
     filter: none !important;
 }
 
-.container-swiper-pagination-red{
+div.box-portfolio{
+    cursor: pointer
+}
+
+.box-portfolio:hover{
+    background-color: var(--light-white);
+    color: var(--normal-dark);
+    transition: 0.3s;
+}
+
+/* <!----------------------------------------section2-------------------------------------------------> */
+
+div.container-swiper-pagination-red{
     position: absolute !important;
     top: 100% !important;
 }
 
-.container-swiper-pagination-dark{
+div.container-swiper-pagination-dark{
     position: absolute !important;
     top: 100% !important;
     right: 0%;
@@ -67,59 +79,20 @@ section.sec-01{
     border-radius: 5px;
 }
 
-.project-div{
+div.project-div{
     margin: 6rem 0px;
 }
 
-.box-portfolio{
-    cursor: pointer
-}
-
-.box-portfolio:hover{
-    background-color: var(--light-white);
-    color: var(--normal-dark);
-    transition: 0.3s;
-}
-
-.card-red{
-    margin-top: 70px;
-}
-
-.card-dark{
-    margin-top: 50px;
-}
-
-.border-background-red{
-    width: 50%;
-    height: 120%;
-    position: absolute;
-    left: 50%;
-    top: -10%;
-    z-index: -1;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color: #8E443D;
-}
-
-.border-background-dark{
-    width: 50%;
-    height: 120%;
-    position: absolute;
-    left: -0%;
-    top: -10%;
-    z-index: -1;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color: var(--normal-dark);
-}
-.card{
+div.card{
     --bs-card-bg: none;
     color: var(--light-white)
 }
 
-.mais-projetos{
+div.more-projects{
     cursor: pointer;
 }
 
-.mais-projetos::after{
+div.more-projects::after{
     content: " ";
     width: 20%;
     height: 2px;
@@ -130,35 +103,41 @@ section.sec-01{
     transition: 0.5s;
 }
 
-.mais-projetos:hover::after{
+div.more-projects:hover::after{
     width: 45%;
 }
 
-.personal-photo{
+/* <!----------------------------------------section3-------------------------------------------------> */
+
+section.sec-profile{
+    margin-bottom: 80px;
+}
+
+img.personal-photo{
     width: 70%;
     position: relative;
     top: 15%;
     left: 15%;
 }
 
-.personal-description{
+div.personal-description{
     color: var(--light-white);
     padding-top: 10%;
 }
 
-.form-control-coment{
+/* <!----------------------------------------section4-------------------------------------------------> */
+
+textarea.form-control-coment{
     height: 200px !important;
 }
 
-.sec-profile{
-    margin-bottom: 80px;
-}
+/* <!----------------------------------------footer-------------------------------------------------> */
 
-.main-logo{
+div.main-logo{
     height: 155px;
     width: 148px;
 }
 
-.contact-icon{
+div.contact-icon{
     max-width: 42px;
 }

@@ -1,6 +1,7 @@
 /*--------------------------------------1600px----------------------------------------------*/ 
-
 @media screen and (max-width: 1600px) {
+
+    /* <!---section3---> */
     .personal-photo{
         position: static;
         margin: 50px auto;
@@ -15,10 +16,12 @@
 /*--------------------------------------1400px----------------------------------------------*/ 
 
 @media screen and (max-width: 1400px) {
+    
     html{
         font-size: 90.0%;
     }
 
+    /* <!---section3---> */
     .sec-profile{
         margin-bottom: 0px;
     }
@@ -28,18 +31,20 @@
 /*--------------------------------------1200px----------------------------------------------*/ 
 
 @media screen and (max-width: 1200px) {
+    
     html{
         font-size: 80.0%;
     }
-
-    .first-project{
+    /* <!---section2---> */
+    .div-projects{
         width: 100% !important;
     }
 
-    .first-project-div{
+    .div-projects-img{
         width: 85% !important;
     }
 
+    /* <!---section3---> */
     .personal-description{
         padding: 0px;
     }
@@ -49,41 +54,48 @@
 
 @media screen and (max-width: 992px) {
 
+    /* <!---section4---> */
     .form-control-coment{
         height: 100px !important;
     }
 
+    .more-projects::after{
+        left: 200px;
+    }
+
+    /* <!---footer---> */
     .contact-icon{
         max-width: 32px;
-    }
-    
-    .mais-projetos::after{
-        left: 200px;
     }
 }
 
 /*--------------------------------------768px----------------------------------------------*/ 
 
     
-    @media screen and (max-width: 768px) {
-        .form-control-div{
-            padding: 0px 0px 0px 0px;
-        }
+@media screen and (max-width: 768px) {
+    
+    .html{
+        font-size: 65.0%;
+    }
 
-        .html{
-            font-size: 65.0%;
-        }
 
+    /* <!---section2---> */
     .swiper-pagination-bullet{
         width: 25px;
     }
+
+    /* <!---section4---> */
+    .form-control-div{
+        padding: 0px 0px 0px 0px;
+    }
 }
 
-    
+/*--------------------------------------576px----------------------------------------------*/ 
 
-    @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
-    .first-project-div{
+    /* <!---section2---> */
+    .div-projects-img{
         width: 75% !important;
     }
 
@@ -91,7 +103,7 @@
         width: 100%;
     }
 
-    .mais-projetos::after{
+    .more-projects::after{
         left: 150px;
     }
 
