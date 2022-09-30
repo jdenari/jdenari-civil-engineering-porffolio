@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 1400px) {
     html{
-        font-size: 90.0%;
+        font-size: 95.0%;
     }
 
     .sec-profile{
@@ -15,11 +15,19 @@
 
 @media screen and (max-width: 1200px) {
     html{
-        font-size: 70.0%;
+        font-size: 85.0%;
     }
 
     .box-portfolio{
         width: 50% !important;
+    }
+
+    .first-project{
+        width: 100% !important;
+    }
+
+    .first-project-div{
+        width: 75% !important;
     }
 }
 
@@ -44,3 +52,15 @@
         }
     }
 }
+
+    @media screen and (max-width: 576px) {
+
+    .first-project-div{
+        width: 75% !important;
+    }
+
+    .second-project-div{
+        width: 100%;
+    }
+}
+
