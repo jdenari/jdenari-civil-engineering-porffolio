@@ -1,5 +1,4 @@
 /* <!----------------------------------------default-------------------------------------------------> */
-
 :root{
     --light-white: #E5E5E5;
     --light-beige: #E3C5BB;
@@ -19,7 +18,6 @@ body{
 .text-lnormal-dark{color: #212529;}
 
 /* <!----------------------------------------navbar-------------------------------------------------> */
-
 .brand-navbar{
     height: 70px;
 }
@@ -28,7 +26,6 @@ nav.navbar{
     min-height: 86px;
 }
 /* <!----------------------------------------section1-------------------------------------------------> */
-
 section.sec-01{
     margin-top: 86px;
 }
@@ -61,7 +58,6 @@ div.box-portfolio{
 }
 
 /* <!----------------------------------------section2-------------------------------------------------> */
-
 div.container-swiper-pagination-red{
     position: absolute !important;
     top: 100% !important;
@@ -108,7 +104,6 @@ div.more-projects:hover::after{
 }
 
 /* <!----------------------------------------section3-------------------------------------------------> */
-
 section.sec-profile{
     margin-bottom: 80px;
 }
@@ -126,13 +121,11 @@ div.personal-description{
 }
 
 /* <!----------------------------------------section4-------------------------------------------------> */
-
 textarea.form-control-coment{
     height: 200px !important;
 }
 
 /* <!----------------------------------------footer-------------------------------------------------> */
-
 div.main-logo{
     height: 155px;
     width: 148px;
