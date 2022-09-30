@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1400px) {
     html{
-        font-size: 95.0%;
+        font-size: 90.0%;
     }
 
     .sec-profile{
@@ -29,11 +29,7 @@
 
 @media screen and (max-width: 1200px) {
     html{
-        font-size: 85.0%;
-    }
-
-    .box-portfolio{
-        width: 50% !important;
+        font-size: 80.0%;
     }
 
     .first-project{
@@ -41,7 +37,7 @@
     }
 
     .first-project-div{
-        width: 75% !important;
+        width: 85% !important;
     }
 
     .personal-description{
@@ -60,6 +56,11 @@
     .contact-icon{
         max-width: 32px;
     }
+    
+    .mais-projetos::after{
+        left: 200px;
+    }
+}
 
 /*--------------------------------------768px----------------------------------------------*/ 
 
@@ -68,8 +69,17 @@
         .form-control-div{
             padding: 0px 0px 0px 0px;
         }
+
+        .html{
+            font-size: 65.0%;
+        }
+
+    .swiper-pagination-bullet{
+        width: 25px;
     }
 }
+
+    
 
     @media screen and (max-width: 576px) {
 
@@ -80,5 +90,12 @@
     .second-project-div{
         width: 100%;
     }
-}
 
+    .mais-projetos::after{
+        left: 150px;
+    }
+
+    .box-portfolio{
+        width: 50% !important;
+    }
+}

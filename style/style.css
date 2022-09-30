@@ -63,7 +63,7 @@ section.sec-01{
 
 .swiper-pagination-bullet{
     width: 32px;
-    height: 4px;
+    height: 2px;
     border-radius: 5px;
 }
 
@@ -151,7 +151,7 @@ section.sec-01{
 }
 
 .sec-profile{
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 .main-logo{
