@@ -18,11 +18,6 @@
         font-size: 90.0%;
     }
 
-    /* <!---section3---> */
-    .sec-profile{
-        margin-bottom: 0px;
-    }
-
 }
 /*-----------------------------------1200px-xl-------------------------------------------*/ 
 @media screen and (max-width: 1200px) {
@@ -52,11 +47,18 @@
     .personal-description{
         padding: 0px;
     }
+
+    .sec-profile{
+        margin-bottom: 0px !important;
+    }
+
+    div.personal-description{
+        padding-top: 0%;
+    }
+    
 }
 /*------------------------------------992px-lg-------------------------------------------*/ 
 @media screen and (max-width: 992px) {
-
-    
 
     /* <!---section4---> */
     .form-control-coment{
